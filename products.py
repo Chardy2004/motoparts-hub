@@ -106,6 +106,14 @@ def on_checkout(event):
     msg.innerText = f"Order placed for {count} item(s). Thank you for shopping at MotoParts Hub!"
 
 
+@when("click", "#clear")           # clear the whole cart
+def on_clear(event):
+    cart.clear()
+    save()
+    render_cart()
+    document.querySelector("#order-msg").innerText = "Cart cleared."
+
+
 # ---- Startup ----
 cats = ["All"] + sorted({p["cat"] for p in PRODUCTS})
 document.querySelector("#category").innerHTML = "".join(f"<option>{c}</option>" for c in cats)
