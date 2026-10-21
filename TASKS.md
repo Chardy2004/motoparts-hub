@@ -5,7 +5,7 @@
 | Taborada, John Richard | Create the public repo, add all collaborators. `products.py`: product list, `render_products`, search + category events | "Create repo and project structure", "Add product catalog data", "Add search and category filter events" |
 | Cabanada, Ysiah | `products.py` cart: add/plus/minus/remove, total, localStorage, checkout | "Add cart add-to-cart event", "Add quantity controls and live total", "Add checkout validation" |
 | Navidad, Tirsnavs | `contact.html` + `contact.py`: feedback form, submit event, character counter, saved feedback list | "Add feedback form", "Add submit validation", "Add live character counter" |
-| Pulgo, Michael | `index.html`, `services.html`: business info, services, copy from the business paper | "Add home page", "Add services page", "Update business descriptions" |
+| Pulgo, Michael | `home.html`, `services.html`: business info, services, copy from the business paper | "Add home page", "Add services page", "Update business descriptions" |
 | Arcenal, Kianzel | `style.css`, `assets/`, `README.md`, testing on mobile, GitHub Pages, video file/link | "Add site styling", "Add logo and banner", "Make layout responsive", "Update README" |
 
 ## Tips

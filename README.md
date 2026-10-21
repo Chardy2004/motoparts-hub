@@ -4,10 +4,18 @@ Motorcycle parts and accessories website for **Event-Driven Programming (Final P
 Built with HTML, CSS and **PyScript** (Python in the browser).
 
 ## Pages
-- `index.html` Home
+- `index.html` Landing page: the video advertisement with a nav bar (Home, Products, Services, Contact)
+- `home.html` Home page (banner, business info)
 - `products.html` Product catalog (search, category filter) and shopping cart (`products.py`)
 - `services.html` Services
 - `contact.html` Feedback / interest form (`contact.py`)
+
+## Video advertisement (Business Analytics)
+- The 38-second cinematic ad is the landing page itself (`index.html`): English subtitles, animated scenes, effects
+- `music.mp3` cinematic score and `sfx.mp3` sound effects, both played by the ad
+- Optional voice-over files: `vo1.mp3` to `vo6.mp3` (if missing, the browser voice is used)
+- Keep these files in the same folder as `index.html` and the `assets/` folder
+- `assets/logo.png` and `assets/banner.png` are the logo and banner; product pictures go in `assets/products/` (1.png to 12.png)
 
 ## Event-driven features
 | Event | Where | What happens |
@@ -25,3 +33,6 @@ Built with HTML, CSS and **PyScript** (Python in the browser).
 
 ## Group
 Taborada, John Richard · Cabanada, Ysiah · Navidad, Tirsnavs · Pulgo, Michael · Arcenal, Kianzel
+
+## Run locally
+Double-click `run.bat` (Windows) or run `python -m http.server` here and open http://localhost:8000. Opening the HTML files directly will NOT work with PyScript. GitHub Pages also works.
